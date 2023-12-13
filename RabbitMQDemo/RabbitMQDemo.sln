@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitSender", "RabbitSende
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitReceiverA", "RabbitReceiverA\RabbitReceiverA.csproj", "{8ACAF84A-F3DD-449F-92EA-52A0C7D28837}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitReceiverB", "RabbitReceiverB\RabbitReceiverB.csproj", "{1202ACDD-B914-4706-AA42-676AFA02FAA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8ACAF84A-F3DD-449F-92EA-52A0C7D28837}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8ACAF84A-F3DD-449F-92EA-52A0C7D28837}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8ACAF84A-F3DD-449F-92EA-52A0C7D28837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1202ACDD-B914-4706-AA42-676AFA02FAA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1202ACDD-B914-4706-AA42-676AFA02FAA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1202ACDD-B914-4706-AA42-676AFA02FAA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1202ACDD-B914-4706-AA42-676AFA02FAA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
