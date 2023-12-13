@@ -18,8 +18,15 @@ channel.ExchangeDeclare(exchangeName, ExchangeType.Direct);
 channel.QueueDeclare(queueName,false,false,false,null);
 channel.QueueBind(queueName,exchangeName,routingKey,null);
 
-byte[] messageBodyBytes = Encoding.UTF8.GetBytes("Hello I am a message");
-channel.BasicPublish(exchangeName,routingKey,null,messageBodyBytes);
+for (int i = 0; i < 60; i++)
+{
+    Console.WriteLine($"Sending Message {i}");
+
+    byte[] messageBodyBytes = Encoding.UTF8.GetBytes($"Hello I am a message {i}");
+    channel.BasicPublish(exchangeName, routingKey, null, messageBodyBytes);
+
+    Thread.Sleep(1000);
+}
 
 channel.Close();
 con.Close();

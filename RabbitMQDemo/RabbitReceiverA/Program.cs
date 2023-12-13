@@ -23,6 +23,7 @@ channel.BasicQos(0, 1, false);
 var consumer = new EventingBasicConsumer(channel);
 consumer.Received += (sender, args) =>
 {
+    Task.Delay(TimeSpan.FromSeconds(5)).Wait();
     var body = args.Body.ToArray();
 
     string message = Encoding.UTF8.GetString(body);
