@@ -18,7 +18,7 @@ channel.ExchangeDeclare(exchangeName, ExchangeType.Direct);
 channel.QueueDeclare(queueName,false,false,false,null);
 channel.QueueBind(queueName,exchangeName,routingKey,null);
 
-for (int i = 0; i < 60; i++)
+for (int i = 0; i < 30; i++)
 {
     Console.WriteLine($"Sending Message {i}");
 
