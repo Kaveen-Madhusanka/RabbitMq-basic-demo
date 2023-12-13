@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitReceiverA", "RabbitRe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitReceiverB", "RabbitReceiverB\RabbitReceiverB.csproj", "{1202ACDD-B914-4706-AA42-676AFA02FAA5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitReceiverC", "RabbitReceiverC\RabbitReceiverC.csproj", "{881EAB05-2BC2-4D23-8B1B-69F58325E695}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{1202ACDD-B914-4706-AA42-676AFA02FAA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1202ACDD-B914-4706-AA42-676AFA02FAA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1202ACDD-B914-4706-AA42-676AFA02FAA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{881EAB05-2BC2-4D23-8B1B-69F58325E695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{881EAB05-2BC2-4D23-8B1B-69F58325E695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{881EAB05-2BC2-4D23-8B1B-69F58325E695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{881EAB05-2BC2-4D23-8B1B-69F58325E695}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
